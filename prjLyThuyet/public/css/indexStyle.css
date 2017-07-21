@@ -1,0 +1,299 @@
+*{
+	margin 0px;
+	padding: 0px;
+}
+.nopadding{
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.cua-ra-vao{
+	width: 40px;
+	height: 140px;
+	text-align: center;
+	padding-top: 40px;
+	font-weight: bold;
+	color: #D60202;
+	/*background: blue;*/
+}
+.quay-thu-ngan{
+	width: 70px;
+	height: 70px;
+	text-align: center;
+	/*	padding-top: 40px;*/
+	font-weight: bold;
+	
+}
+.khuvuc{
+	float: left;
+	border: 1px solid #F3F3F3;
+	border: 3px solid orange;
+	height: auto;
+	margin: 5px;
+}
+.ke{
+	
+	height: auto;
+	min-height: 47px;
+	border: 2px solid orange;
+	padding: 5px;
+	float: left;
+	margin: 5px;
+}
+.ngan1{
+	width: 30px;
+	height: 20px;
+	border: 1px solid orange;
+	float: left;
+	margin: 1px;
+	/*clear: both;*/
+}
+.ngan2{
+	width: 100px;
+	height: 30px;
+	border: 1px solid orange;
+}
+
+.xoay {
+
+
+	/* Rotate div */
+	/* -ms-transform: rotate(90deg);*/ /* IE 9 */
+	/* -webkit-transform: rotate(90deg);*/ /* Chrome, Safari, Opera */
+	transform: rotate(-30deg);
+}
+
+[id*='ngan'] {
+	color: red;
+}
+
+/*icon edit khu vực*/
+.icon-edit-kv {
+	position: absolute;
+	z-index: 1000;
+	border-radius: 50%;
+	width: 15px;
+	height: 15px;
+	float: left;
+	margin-top: -7px;
+	margin-left: -5px;
+	cursor: pointer;
+	/*background: #449D44;*/
+
+}
+
+/*icon edit Kệ*/
+.icon-edit-ke {
+	position: absolute;
+	z-index: 1000;
+	border-radius: 50%;
+	width: 15px;
+	height: 15px;
+	float: right !important;
+	margin-top: 1px;
+	margin-left: -4px;
+	cursor: pointer;
+	/*background: #449D44;*/
+}
+
+/*MÃ KHU VỰC*/
+.kv-id{
+	width: 50px;
+	height: 20px;
+	font-size: 15px;
+	position: absolute;
+	z-index: 2000;
+	left: 50%;
+	font-weight: bold;
+	text-align: center;
+	margin-top: -23px; 
+	margin-left: -25px;
+}
+
+/*menu*/
+
+/*Test xoay div*/
+.elem{
+	/*    position:absolute;*/
+/*    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+    transition-property: transform;
+    transition-duration: 1s;*/
+}
+.elem:hover {
+	-webkit-animation-name: rotate; 
+	-webkit-animation-duration: 2s; 
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-name: rotate; 
+	-moz-animation-duration: 2s; 
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	animation-name: rotate; 
+	animation-duration: 2s; 
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+@-webkit-keyframes rotate {
+	from {-webkit-transform: rotate(0deg);}
+	to {-webkit-transform: rotate(360deg);}
+}
+
+@-moz-keyframes rotate {
+	from {-moz-transform: rotate(0deg);}
+	to {-moz-transform: rotate(360deg);}
+}
+
+@keyframes rotate {
+	from {transform: rotate(0deg);}
+	to {transform: rotate(360deg);}
+}
+
+/*DIV ICON SHOW TEAM INFO*/
+.icon-show-team-info{
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	z-index: 5000;
+	cursor: pointer;
+}
+#team-info{
+	padding-right: 0px; margin-top: 3px;
+	position: absolute;
+	z-index: 5000;
+	margin-top: 340px;
+	/*	visibility: hidden;*/
+	/*margin-top: 340px;
+*/}
+.icon-close-team-info
+{
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	z-index: 50000;
+	cursor: pointer;
+	left: 50%;
+	margin-left: -25px;
+}
+
+/*sHOW -CLOSE TEAM INFO*/
+
+/* MENU CUSTOM HÀNG HÓA*/
+.custom-menu {
+	display: none;
+	z-index: 1000;
+	position: absolute;
+	overflow: hidden;
+	border: 1px solid #CCC;
+	white-space: nowrap;
+	font-family: sans-serif;
+	background: #FFF;
+	color: #333;
+	border-radius: 5px;
+	padding: 0;
+	position: absolute;
+	z-index: 50000;
+}
+
+/* Each of the items in the list */
+.custom-menu li {
+	padding: 8px 12px;
+	cursor: pointer;
+	list-style-type: none;
+	transition: all .3s ease;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.custom-menu li:hover {
+	background-color: #DEF;
+}
+.icon-menu-edit-hh{
+	color:blue;
+	margin-right: 5px;
+}
+.dkm{
+	height: 100%;
+}
+/* ./MENU CUSTOM HÀNG HÓA*/
+/* MENU CUSTOM kệ*/
+.menu-ke {
+	display: none;
+	z-index: 1000;
+	position: absolute;
+	overflow: hidden;
+	border: 1px solid #CCC;
+	white-space: nowrap;
+	font-family: sans-serif;
+	background: #FFF;
+	color: #333;
+	border-radius: 5px;
+	padding: 0;
+	position: absolute;
+	z-index: 50000;
+}
+
+/* Each of the items in the list */
+.menu-ke li {
+	padding: 8px 12px;
+	cursor: pointer;
+	list-style-type: none;
+	transition: all .3s ease;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.menu-ke li:hover {
+	background-color: #DEF;
+}
+.disable-li
+{
+	pointer-events:none; 
+	opacity:0.8;
+	background: black;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+.disable-li2
+{
+	pointer-events:none; 
+	opacity:0.8;
+	background: black;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+/*./MENU KỆ*/
+/*MENU KHU VỰC*/
+.menu-khu-vuc {
+	display: none;
+	z-index: 1000;
+	position: absolute;
+	overflow: hidden;
+	border: 1px solid #CCC;
+	white-space: nowrap;
+	font-family: sans-serif;
+	background: #FFF;
+	color: #333;
+	border-radius: 5px;
+	padding: 0;
+	position: absolute;
+	z-index: 50000;
+}
+
+/* Each of the items in the list */
+.menu-khu-vuc li {
+	padding: 8px 12px;
+	cursor: pointer;
+	list-style-type: none;
+	transition: all .3s ease;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.menu-khu-vuc li:hover {
+	background-color: #DEF;
+}
+
+/*./MENU KHU VỰC*/
+}*/
+
